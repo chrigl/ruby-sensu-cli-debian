@@ -1,0 +1,5 @@
+ruby-sensu-cli (0.6.3-1) trusty; urgency=medium
+
+  * initial package of ruby-sensu-client
+
+ -- Christoph Glaubitz (launchpad) <c.glaubitz@syseleven.de>  Thu, 26 Mar 2015 17:11:43 +0100

@@ -1,0 +1,17 @@
+Source: ruby-sensu-cli
+Section: ruby
+Priority: optional
+Maintainer: Christoph Glaubitz <c.glaubitz@syseleven.de>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.6.1~)
+Standards-Version: 3.9.4
+#Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-sensu-cli.git
+#Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-sensu-cli.git;a=summary
+Homepage: http://github.com/agent462/sensu-cli
+XS-Ruby-Versions: all
+
+Package: ruby-sensu-cli
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-rainbow (>= 1.99.0), ruby-trollop (>= 2.0), ruby-mixlib-config (>= 2.1.0), ruby-hirb (>= 0.7.1), ruby-erubis (>= 2.7.0)
+Description: A command line utility for Sensu.
+ A command line utility for interacting with the Sensu api.
