@@ -1,3 +1,9 @@
+ruby-sensu-cli (0.6.3-2) trusty; urgency=medium
+
+  * added default config file
+
+ -- Christoph Glaubitz (launchpad) <c.glaubitz@syseleven.de>  Thu, 30 Mar 2015 11:54:12 +0200
+
 ruby-sensu-cli (0.6.3-1) trusty; urgency=medium
 
   * initial package of ruby-sensu-client
